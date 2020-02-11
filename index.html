@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ceilings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Kwork">
+		<input type="hidden" name="admin_email" value="maref.official@mail.com">
+		<input type="hidden" name="form_subject" value="Kwork order">
+	<!-- END Hidden Required Fields -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-position">
+                <div class="header-top">
+                    <div class="logo">
+                        <img src="img/cloud.png" class="logo__img">
+                        <p class="logo__title">
+                            Натяжные Потолки
+                        </p>
+                        <p class="logo__subtitle">
+                            Гарантия 12 лет
+                        </p>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="phone">
+                            <i class="fas fa-mobile-alt phone__img"></i>
+                            +7 (938) 333 - 44 - 84
+                        </div>
+                        <div class="whatsapp">
+                            <i class="fas fa-comments whatsapp__img"></i>
+                            WhatsApp <span class="whatsapp__span">(круглосуточно)</span>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="header__title">
+                    Натяжные потолки без запаха, бесшовные, бесплатный замер и качественная установка.
+                </h1>
+                <form action="php/mail.php" method="POST" class="header-form-position">
+                    <div class="header-first-form-group">
+                        <input type="tel" name="user_phone" class="header-form-phone" id="phone">
+                        <label class="header-label-phone" for="phone">
+                            <i class="fas fa-phone-volume form-phone__img"></i>
+                            Ваш номер телефона
+                        </label>
+                    </div>
+                    <div class="header-second-form-group">
+                        <input type="submit" class="header-phone-submit__btn" id="phone-submit__btn">
+                        <label class="header-phone-submit__btn_text" for="phone-submit__btn">
+                            <i class="fas fa-gift gift__img"></i>
+                            Получить скидку 30%
+                        </label>
+                    </div>
+                </form>
+                <div class="header-bonus">
+                    <i class="fas fa-exclamation-triangle warning__img"></i>
+                    <p class="header-bonus__title">
+                        Бесплатный потолок в ванную
+                    </p>
+                    <p class="header-bonus__subtitle">
+                        При заказе от 25 000 руб. потолок в ванную бесплатно.
+                    </p>
+                    <hr class="header-bonus-line">
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-adress">
+                        <p class="header-bottom-adress__title">
+                            г. Минеральные Воды, пр-т Карла Маркса 39
+                        </p>
+                        <p class="header-bottom-adress__subtitle">
+                            ОГРНИП 10239318482101
+                        </p>
+                    </div>
+                    <div class="header-bottom-banks">
+                        <div class="header-bottom-banks__title">
+                            <i class="fas fa-university"></i>
+                            Рассрочка 0%
+                        </div>
+                        <div class="header-bottom-banks-links">
+                            <a href="#"><img src="img/sberbank.png" class="header-bottom-banks__link"></a>
+                            <a href="#"><img src="img/yellowbank.png" class="header-bottom-banks__link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-1">
+        <div class="container">
+            <div class="section-1-first-row">
+
+                <div class="section-1-block">
+                    <p class="section-1-block__title">
+                        Одноуровневые
+                        <i class="fas fa-star section-1-star__img"></i>
+                    </p>
+                    <div class="section-1-block-parameters">
+                        240 р/м2
+                    </div>
+                    <a data-fancybox="gallery-1" href="img/gallery/gallery-1.jpg"><img src="img/gallery/gallery-1.jpg" class="section-1-block-photo"></a>
+                </div>
+
+                <div class="section-1-block">
+                    <p class="section-1-2-block__title">
+                        Двухуровневые
+                    </p>
+                    <div class="section-1-block-parameters">
+                        240 р/м2
+                    </div>
+                    <a data-fancybox="gallery-2" href="img/gallery/gallery-2.jpg"><img src="img/gallery/gallery-2.jpg" class="section-1-block-photo"></a>
+                </div>
+
+                <div class="section-1-block">
+                    <p class="section-1-block__title">
+                        Трёхуровневые
+                    </p>
+                    <div class="section-1-block-parameters">
+                        240 р/м2
+                    </div>
+                    <a data-fancybox="gallery-3" href="img/gallery/gallery-3.jpg"><img src="img/gallery/gallery-3.jpg" class="section-1-block-photo"></a>
+                </div>
+
+                <div class="section-1-block continue">
+                    <p class="section-1-block__title">
+                        Трёхуровневые
+                    </p>
+                    <div class="section-1-block-parameters">
+                        240 р/м2
+                    </div>
+                    <a data-fancybox="gallery-3" href="img/gallery/gallery-4.jpg"><img src="img/gallery/gallery-4.jpg" class="section-1-block-photo"></a>
+                </div>
+
+            </div>
+        </div>
+        <button class="section-1__btn_continue">
+            <i class="fas fa-bars"></i>
+            Ещё фактуры
+        </button>
+    </section>
+
+    <section class="section-2">
+        <div class="container">
+            <div class="section-2-info-inner">
+                <div class="manager-card">
+                    <img src="img/manager.png" class="manager__img">
+                    <div class="manager-info">
+                        <p class="manager__position">
+                            Региональный Менеджер
+                        </p>
+                        <p class="manager__name">
+                            Виктория
+                        </p>
+                        <p class="manager__description">
+                            Бесплатная консультация
+                        </p>
+                        <button class="manager-card__btn" id="manager__btn">
+                            <i class="fas fa-phone-volume form-phone__img"></i>
+                            Позвонить
+                        </button>
+                    </div>
+                </div>
+
+                <div class="work-info">
+                    <p class="work-info__title">
+                        <i class="fas fa-bell"></i>
+                        Бесплатный потолок
+                    </p>
+                    <p class="work-info__subtitle">
+                        При заказе потолков во всю 
+                        квартиру - потолок в ванную
+                        и туалет абсолютно бесплатно
+                    </p>
+                </div>
+                <div class="services">
+                    <div class="services-row">
+                        <i class="far fa-check-circle"></i>
+                        Замер Бесплатно
+                    </div>
+                    <div class="services-row">
+                        <i class="far fa-check-circle"></i>
+                        Бесшовные
+                    </div>
+                    <div class="services-row">
+                        <i class="far fa-check-circle"></i>
+                        Без запаха
+                    </div>
+                    <div class="services-row">
+                        <i class="far fa-check-circle"></i>
+                        12 лет гарантия
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="container">
+            <div class="section-3-position">
+                <div class="section-3-left-side">
+                    <p class="section-3__title">
+                        ФОТОПЕЧАТЬ
+                    </p>
+                    <p class="section-3__price">
+                        120 р/м2
+                    </p>
+                    <div class="section-3__description">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum явля
+                    </div>
+                </div>
+                <div class="section-3-right-side">
+                    <div class="section-3-block"></div>
+                    <div class="section-3-mini-blocks">
+                        <div class="section-3-mini-block"></div>
+                        <div class="section-3-mini-block"></div>
+                        <div class="section-3-mini-block"></div>
+                        <div class="section-3-mini-block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-4">
+        <div class="container">
+            <div class="section-4-position">
+                <div class="quality">
+                    <div class="quality__title">
+                        О качестве
+                    </div>
+                    <div class="quality__subtitle">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum явля
+                    </div>
+                </div>
+                <div class="advantages">
+                    <div class="advantage">
+                        <i class="far fa-check-circle advantage__img"></i>
+                        Замер Бесплатно
+                    </div>
+                    <div class="advantage">
+                        <i class="far fa-check-circle advantage__img"></i>
+                        Замер Бесплатно
+                    </div>
+                    <div class="advantage">
+                        <i class="far fa-check-circle advantage__img"></i>
+                        Замер Бесплатно
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#" class="link"></a>
+                    <a href="#" class="link"></a>
+                    <a href="#" class="link"></a>
+                    <a href="#" class="instagram-link">
+                        <i class="fab fa-instagram instagram__img"></i>
+                        Посетить Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-position">
+                <div class="footer-text">
+                    <p class="footer__title">
+                        <img src="img/alarm.svg" class="alarm">
+                        Бесплатная консультация
+                    </p>
+                    <p class="footer__subtitle">
+                        Наш региональный менеджер, Виктория, перезвонит Вам в течении 5 минут и ответит на любые вопросы. 
+                    </p>
+                </div>
+                <form class="footer-form-position">
+                    <div class="footer-first-form-group">
+                        <input type="tel" class="footer-form-phone" id="footer-phone">
+                        <label class="footer-label-phone" for="footer-phone">
+                            <i class="fas fa-phone-volume form-phone__img"></i>
+                            Ваш номер телефона
+                        </label>
+                    </div>
+                    <div class="footer-second-form-group">
+                        <input type="submit" class="footer-phone-submit__btn" id="footer-phone-submit__btn">
+                        <label class="footer-phone-submit__btn_text" for="footer-phone-submit__btn">
+                            <i class="fas fa-gift gift__img"></i>
+                            Получить скидку 30%
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://kit.fontawesome.com/1f0a62eba1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
